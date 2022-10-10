@@ -122,6 +122,6 @@ rl.question('Input time units : ', function (inputUnits) {
 });
 
 rl.on('close', function () {
-  console.log('\nBYE BYE !!!');
+  console.log('\n Closing!!!');
   process.exit(0);
 });
